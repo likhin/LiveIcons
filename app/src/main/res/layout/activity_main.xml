@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nkl.liveicons.Main" >
+
+
+
+        <RadioGroup
+            android:id="@+id/msgIconRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="37dp" >
+
+            <RadioButton
+                android:id="@+id/radioFlip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/text_flip_sms" />
+
+            <RadioButton
+                android:id="@+id/radioBreathe"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:text="@string/text_breathing_sms" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_whatsapp_pulse"
+            android:id="@+id/checkBoxWhatsApp"
+            android:layout_below="@+id/msgIconRadio"
+            android:layout_alignLeft="@+id/msgIconRadio"
+            android:layout_alignStart="@+id/msgIconRadio"
+            android:layout_marginTop="46dp"
+            android:checked="true"
+            android:layout_alignRight="@+id/msgIconRadio"
+            android:layout_alignEnd="@+id/msgIconRadio" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_hello_pulse"
+            android:id="@+id/checkBoxHello"
+            android:layout_below="@+id/checkBoxWhatsApp"
+            android:layout_alignLeft="@+id/checkBoxWhatsApp"
+            android:layout_alignStart="@+id/checkBoxWhatsApp"
+            android:checked="true"
+            android:layout_alignRight="@+id/checkBoxWhatsApp"
+            android:layout_alignEnd="@+id/checkBoxWhatsApp" />
+
+
+    <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView"
+            android:layout_toEndOf="@+id/msgIconRadio"
+            android:contentDescription="@string/prev_sms_flip"
+            android:layout_marginLeft="48dp"
+            android:layout_alignTop="@+id/msgIconRadio"
+            android:layout_toRightOf="@+id/msgIconRadio" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView2"
+            android:contentDescription="@string/prev_sms_brthng"
+            android:layout_above="@+id/checkBoxWhatsApp"
+            android:layout_alignLeft="@+id/imageView"
+            android:layout_alignStart="@+id/imageView" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView3"
+            android:contentDescription="@string/prev_wsp_pulse"
+            android:layout_above="@+id/checkBoxHello"
+            android:layout_alignLeft="@+id/imageView2"
+            android:layout_alignStart="@+id/imageView2" />
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/imageView4"
+            android:contentDescription="@string/prev_hlo_pulse"
+            android:layout_alignBottom="@+id/checkBoxHello"
+            android:layout_alignLeft="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3" />
+
+
+    <Button
+        android:id="@+id/apply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:onClick="apply"
+        android:text="@string/apply_button"
+        android:background="#2f2f2f"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
