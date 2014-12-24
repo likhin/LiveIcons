@@ -1,0 +1,5 @@
+/home/nikhil/Android/projects/LiveIcons/app/build/intermediates/classes/debug
+/home/nikhil/Android/projects/LiveIcons/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-5d74ec796f0680df313956a9ef9b58db6640413d.jar
+/home/nikhil/Android/projects/LiveIcons/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-9c11f30f672eaeed57a0ef4df97cd497d1301d75.jar
+/home/nikhil/Android/projects/LiveIcons/app/build/intermediates/pre-dexed/debug/classes-f6890875e75f434228d98bb465af4357a89d2afb.jar
+/home/nikhil/Android/projects/LiveIcons/app/build/intermediates/pre-dexed/debug/classes-638072b69c08c68d8fdee6ac3cb41705b4d698a8.jar
